@@ -1,0 +1,58 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap facebook.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:15 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.00039s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+
+Nmap done: 1 IP address (1 host up) scanned in 22.52 seconds
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 80 facebook.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:19 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.0010s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.50 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~#
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 0-3000 facebook.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:19 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.00037s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 2998 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+443/tcp open   https
+843/tcp closed unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 31.65 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~#
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -F facebook.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:21 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.0010s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 3.68 seconds
+root@lamp-s-1vcpu-1gb-tor1-01:~#

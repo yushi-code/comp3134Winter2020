@@ -1,0 +1,14 @@
+C:\Users\David>ping 165.227.42.212
+
+Pinging 165.227.42.212 with 32 bytes of data:
+Reply from 165.227.42.212: bytes=32 time=9ms TTL=57
+Reply from 165.227.42.212: bytes=32 time=15ms TTL=57
+Reply from 165.227.42.212: bytes=32 time=4ms TTL=57
+Reply from 165.227.42.212: bytes=32 time=4ms TTL=57
+
+Ping statistics for 165.227.42.212:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 4ms, Maximum = 15ms, Average = 8ms
+
+C:\Users\David>
