@@ -1,0 +1,8 @@
+jacobs.com is hosted on Amazon.com, Inc.
+Datacenter: AWS EC2 (us-east-1)
+Server IP: 107.22.178.157
+Location: United States of America
+City: Ashburn
+Domain Who Is: Click Here
+Nameservers: ns2-08.azure-dns.net, ns4-08.azure-dns.info, ns3-08.azure-dns.org, ns1-08.azure-dns.com
+Reverse DNS of the IP: ec2-107-22-178-157.compute-1.amazonaws.com

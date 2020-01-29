@@ -1,0 +1,29 @@
+C:\Users\David>ping jacobs.com
+
+Pinging jacobs.com [107.22.178.157] with 32 bytes of data:
+Reply from 107.22.178.157: bytes=32 time=37ms TTL=42
+Reply from 107.22.178.157: bytes=32 time=34ms TTL=42
+Reply from 107.22.178.157: bytes=32 time=43ms TTL=42
+Reply from 107.22.178.157: bytes=32 time=43ms TTL=42
+
+Ping statistics for 107.22.178.157:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 34ms, Maximum = 43ms, Average = 39ms
+
+C:\Users\David>
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# ping jacobs.com
+PING jacobs.com (107.22.178.157) 56(84) bytes of data.
+64 bytes from ec2-107-22-178-157.compute-1.amazonaws.com (107.22.178.157): icmp_seq=1 ttl=43 time=32.1 ms
+64 bytes from ec2-107-22-178-157.compute-1.amazonaws.com (107.22.178.157): icmp_seq=2 ttl=43 time=31.2 ms
+64 bytes from ec2-107-22-178-157.compute-1.amazonaws.com (107.22.178.157): icmp_seq=3 ttl=43 time=31.3 ms
+64 bytes from ec2-107-22-178-157.compute-1.amazonaws.com (107.22.178.157): icmp_seq=4 ttl=43 time=31.4 ms
+64 bytes from ec2-107-22-178-157.compute-1.amazonaws.com (107.22.178.157): icmp_seq=5 ttl=43 time=31.2 ms
+64 bytes from ec2-107-22-178-157.compute-1.amazonaws.com (107.22.178.157): icmp_seq=6 ttl=43 time=31.2 ms
+^C
+--- jacobs.com ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5008ms
+rtt min/avg/max/mdev = 31.260/31.447/32.166/0.397 ms
