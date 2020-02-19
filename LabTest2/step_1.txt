@@ -1,0 +1,41 @@
+##############################
+Command: tcpdump udp -nn -xx
+
+-nn will show ip address instead of machine host name,also will show port name instead of protocol name.
+
+-xx will show information of packet received
+###############################
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump udp -nn -xx
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+15:20:22.580711 IP 198.96.85.21.58367 > 165.227.42.212.5555: UDP, length 24
+        0x0000:  56d0 555a 880a fe00 0000 0101 0800 4500
+        0x0010:  0034 2958 0000 7b11 2a34 c660 5515 a5e3
+        0x0020:  2ad4 e3ff 15b3 0020 42bd 6161 7364 6473
+        0x0030:  6177 6572 6572 6572 7472 6667 6266 6762
+        0x0040:  6766
+15:20:27.538231 IP 198.96.85.21.58367 > 165.227.42.212.5555: UDP, length 24
+        0x0000:  56d0 555a 880a fe00 0000 0101 0800 4500
+        0x0010:  0034 295a 0000 7b11 2a32 c660 5515 a5e3
+        0x0020:  2ad4 e3ff 15b3 0020 42bd 6161 7364 6473
+        0x0030:  6177 6572 6572 6572 7472 6667 6266 6762
+        0x0040:  6766
+15:20:32.523462 IP 198.96.85.21.58367 > 165.227.42.212.5555: UDP, length 24
+        0x0000:  56d0 555a 880a fe00 0000 0101 0800 4500
+        0x0010:  0034 295c 0000 7b11 2a30 c660 5515 a5e3
+        0x0020:  2ad4 e3ff 15b3 0020 42bd 6161 7364 6473
+        0x0030:  6177 6572 6572 6572 7472 6667 6266 6762
+        0x0040:  6766
+^C
+3 packets captured
+3 packets received by filter
+0 packets dropped by kernel
+root@lamp-s-1vcpu-1gb-tor1-01:~#
+##############################
+Source Host:198.96.85.21
+Source Port:58367
+Destination Host:165.227.42.212
+Destination Port:5555
+##############################
+
+
