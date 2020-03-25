@@ -1,0 +1,1 @@
+If I use var dump before echo out the text, I can see there are strings in side . but as long as I echo out the text, it changes the location of the file then I could't see anything.
