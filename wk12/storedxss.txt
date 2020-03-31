@@ -1,1 +1,2 @@
-<script>document.location.href=¡±/directory_traversal_part1.php¡±<script>
+<script>document.location.href=â€/directory_traversal_part1.phpâ€<script>
+sadas
