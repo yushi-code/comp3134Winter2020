@@ -1,0 +1,5 @@
+1. User record is not diplayed because the input does not match with the database record.
+
+2. User record of the user 'Ben' will be displayed  because of the SQL injection with the use of user 'Ben' .
+
+3. All the database records diplayed because the provided the condition is true.
